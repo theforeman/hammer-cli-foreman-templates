@@ -23,7 +23,7 @@ First, cd into the directory where your projects will live. Then clone everythin
 
 ```bash
 git clone https://github.com/theforeman/hammer-cli-foreman.git
-git clone https://github.com/theforeman/hammer_cli_foreman_templates.git
+git clone https://github.com/theforeman/hammer-cli-foreman-templates.git
 ```
 
 Before we bundle, we need to setup our local Gemfile. Edit `Gemfile.local.rb` in your hammer_cli_foreman_templates directory to point to the local projects instead of using the gems. Enter the following:
