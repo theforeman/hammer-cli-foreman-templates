@@ -1,25 +1,13 @@
-require 'hammer_cli_foreman'
-require 'hammer_cli_foreman/template'
-
 module HammerCLIForemanTemplates
-
   class ImportCommand < HammerCLIForeman::Command
-
-    command_name 'import'
-    desc _("Imports templates")
+    command_name 'import-templates'
+    desc _('Import templates from a git repo or a directory on the server')
 
     resource :template, :import
 
-    success_message _("Import finished")
-    failure_message _("Could not import")
+    success_message _('Import finished')
+    failure_message _('Could not import')
 
     build_options
   end
-
-  HammerCLIForeman::Template.subcommand(
-    'import',
-    _("Imports templates"),
-    HammerCLIForemanTemplates::ImportCommand
-  )
-
 end
