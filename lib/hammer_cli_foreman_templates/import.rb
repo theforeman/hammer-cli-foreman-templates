@@ -8,6 +8,6 @@ module HammerCLIForemanTemplates
     success_message _('Import finished')
     failure_message _('Could not import')
 
-    build_options
+    build_options without: [:verbose]
   end
 end

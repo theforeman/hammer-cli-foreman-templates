@@ -8,6 +8,6 @@ module HammerCLIForemanTemplates
     success_message _('Export finished')
     failure_message _('Could not export')
 
-    build_options
+    build_options without: [:verbose]
   end
 end
