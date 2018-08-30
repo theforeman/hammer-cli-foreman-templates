@@ -1,8 +1,39 @@
-# hammer_cli_foreman_templates
+# Hammer CLI Foreman Templates
 
-Next-gen CLI tool for [ForemanTemplates](http://www.theforeman.org/plugins/foreman_templates/)
+This Hammer CLI plugin contains set of commands for [foreman_templates](
+  https://github.com/theforeman/foreman_templates
+), a plugin to Foreman for syncing the contents of the Foreman Community
+Templates [repository](
+  https://github.com/theforeman/community-templates/
+) (or a git repo of your choice).
 
-hammer-cli development docs for [help](https://github.com/theforeman/hammer-cli/blob/master/doc/developer_docs.md#hammer-development-docs)
+## Versions
+
+This is the list of which version of Foreman Templates is needed to which version of this plugin.
+
+| Hammer Templates  | 0.1.0-1|
+|-------------------|--------|
+| Foreman Templates | 5.0.2+ |
+
+## Installation
+
+    $ gem install hammer_cli_foreman_templates
+
+    $ mkdir -p ~/.hammer/cli.modules.d/
+
+    $ cat <<EOQ > ~/.hammer/cli.modules.d/foreman_templates.yml
+    :foreman_templates:
+      :enable_module: true
+    EOQ
+
+    # to confirm things work, this should return useful output
+    hammer import-templates --help
+    hammer export-templates --help
+
+## More info
+
+See our [Hammer CLI installation and configuration instuctions](
+https://github.com/theforeman/hammer-cli/blob/master/doc/installation.md#installation).
 
 ## Development setup
 With this guide, you'll be able to set up hammer_cli_foreman_templates with hammer-cli-foreman for development.
@@ -69,5 +100,3 @@ You should see in the output:
 Extension module hammer_cli_foreman_templates (version) loaded
 ```
 If you see no errors, you should be good to go.
-
-
