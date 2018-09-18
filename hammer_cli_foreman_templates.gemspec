@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
 
   s.authors = ["The Foreman team"]
-  s.homepage = "http://github.com/theforeman/hammer-cli-foreman-templates"
-  s.license = "GPL-3"
+  s.homepage = "https://github.com/theforeman/hammer-cli-foreman-templates"
+  s.license = "GPL-3.0"
 
   s.summary = %q{Foreman Hammer commands for exporting and importing templates}
   s.description = <<EOF
