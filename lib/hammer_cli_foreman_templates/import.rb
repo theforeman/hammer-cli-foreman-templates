@@ -3,7 +3,7 @@ module HammerCLIForemanTemplates
     command_name 'import-templates'
     desc _('Import templates from a git repo or a directory on the server')
 
-    resource :template, :import
+    resource :templates, :import
 
     success_message _('Import finished.')
     failure_message _('Could not import')
