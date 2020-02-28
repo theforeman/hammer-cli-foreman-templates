@@ -11,9 +11,9 @@ Templates [repository](
 
 This is the list of which version of Foreman Templates is needed to which version of this plugin.
 
-| Hammer Templates  | 0.1.0+ |
-|-------------------|--------|
-| Foreman Templates | 5.0.2+ |
+| Hammer Templates  | 0.1.0+ | 0.2.0+ |
+|-------------------|--------|--------|
+| Foreman Templates | 5.0.2+ | 8.0.0+ |
 
 ## Installation
 
