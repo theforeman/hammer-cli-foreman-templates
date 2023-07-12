@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_templates package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Martin Liu <liuzh66@gmail.com>, 2020
+# Bryan Kearney <bryan.kearney@gmail.com>, 2020
+# Amit Upadhye <aupadhye@redhat.com>, 2022
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer-cli-foreman-templates 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-26 16:45+0530\n"
+"PO-Revision-Date: 2020-08-11 10:12+0000\n"
+"Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/foreman/teams/114/"
+"zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Export templates to a git repo or a directory on the server"
+msgstr "将模板导出到一个 git 仓库或服务器上的一个目录"
+
+msgid "Export finished."
+msgstr "导出完成。"
+
+msgid "Could not export"
+msgstr "无法导出"
+
+msgid "Be verbose"
+msgstr "详细"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Exported"
+msgstr "已导出"
+
+msgid "Import templates from a git repo or a directory on the server"
+msgstr "从 git repo 或服务器上的目录导入模板"
+
+msgid "Import finished."
+msgstr "导入完成。"
+
+msgid "Could not import"
+msgstr "无法导入"
+
+msgid "Imported"
+msgstr "导入"
+
+msgid "Changed"
+msgstr "已改变"
+
+msgid "Changes"
+msgstr "修改"
+
+msgid "Errors"
+msgstr "错误"
+
+msgid "Validation"
+msgstr "验证"
+
+msgid "Additional"
+msgstr "额外"
+
+msgid "Exception"
+msgstr "例外"

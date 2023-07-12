@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_templates package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# 0868a4d1af5275b3f70b0a6dac4c99a4, 2020
+# Bryan Kearney <bryan.kearney@gmail.com>, 2020
+# 山田 修司 🍣 Shuji Yamada <uzy.exe@gmail.com>, 2020
+# Amit Upadhye <aupadhye@redhat.com>, 2022
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer-cli-foreman-templates 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-26 16:45+0530\n"
+"PO-Revision-Date: 2020-08-11 10:12+0000\n"
+"Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2022\n"
+"Language-Team: Japanese (https://app.transifex.com/foreman/teams/114/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Export templates to a git repo or a directory on the server"
+msgstr ""
+"テンプレートを git repo またはサーバー上のディレクトリーにエクスポートします"
+
+msgid "Export finished."
+msgstr "エクスポートが終了しました。"
+
+msgid "Could not export"
+msgstr "エクスポートできませんでした"
+
+msgid "Be verbose"
+msgstr "冗長化"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Type"
+msgstr "タイプ"
+
+msgid "Exported"
+msgstr "エクスポート済み"
+
+msgid "Import templates from a git repo or a directory on the server"
+msgstr ""
+"テンプレートを git repo またはサーバー上のディレクトリーからインポートします"
+
+msgid "Import finished."
+msgstr "インポートが終了しました。"
+
+msgid "Could not import"
+msgstr "インポートできませんでした"
+
+msgid "Imported"
+msgstr "インポート済み"
+
+msgid "Changed"
+msgstr "変更済み"
+
+msgid "Changes"
+msgstr "変更"
+
+msgid "Errors"
+msgstr "エラー"
+
+msgid "Validation"
+msgstr "検証"
+
+msgid "Additional"
+msgstr "追加"
+
+msgid "Exception"
+msgstr "例外"
