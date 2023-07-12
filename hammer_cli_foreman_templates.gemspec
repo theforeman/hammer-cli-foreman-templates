@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 CLI plugin with import and export commands for Hammer_CLI_Foreman
 EOF
 
-  s.files = Dir['{lib,config}/**/*', 'LICENSE', 'README.md']
+  s.files = Dir['{lib,config}/**/*', 'LICENSE', 'README.md'] + Dir["locale/**/*.{po,pot,mo}"]
   s.extra_rdoc_files = ['LICENSE', 'README.md']
   s.require_paths = ["lib"]
   s.test_files = Dir["test/**/*"]
