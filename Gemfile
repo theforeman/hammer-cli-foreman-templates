@@ -3,11 +3,12 @@ source "https://rubygems.org"
 gemspec
 
 group :test do
-  gem 'rake', '~> 10.1.0'
+  gem 'rake'
   gem 'minitest', '~> 4.7.4'
   gem 'minitest-spec-context'
-  gem 'mocha', '~> 1.1.0'
-  gem 'simplecov', '~> 0.11.2'
+  gem 'mocha'
+  gem 'simplecov'
+  gem 'ci_reporter', '>= 1.6.3', "< 2.0.0", :require => false
 end
 
 # for generating i18n files, gettext > 3.0 dropped ruby 1.8 support
