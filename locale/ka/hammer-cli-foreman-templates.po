@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_templates package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer-cli-foreman-templates 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-26 16:45+0530\n"
+"PO-Revision-Date: 2020-08-11 10:12+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022\n"
+"Language-Team: Georgian (https://app.transifex.com/foreman/teams/114/ka/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Export templates to a git repo or a directory on the server"
+msgstr "შაბლონების საქაღალდეში სერვერზე ან Git-ის რეპოში გატანა"
+
+msgid "Export finished."
+msgstr "გატანა დასრულდა."
+
+msgid "Could not export"
+msgstr "გატანა შეუძლებელია"
+
+msgid "Be verbose"
+msgstr "დამატებითი შეტყობინებები"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Name"
+msgstr "სახელი"
+
+msgid "Type"
+msgstr "ტიპი"
+
+msgid "Exported"
+msgstr "გატანილია"
+
+msgid "Import templates from a git repo or a directory on the server"
+msgstr "შაბლონების სერვერის საქაღალდიდან ან Git-ის რეპოდან შემოტანა"
+
+msgid "Import finished."
+msgstr "შემოტანა დასრულებულია."
+
+msgid "Could not import"
+msgstr "შემოტანის შეცდომა"
+
+msgid "Imported"
+msgstr "შემოტანილია"
+
+msgid "Changed"
+msgstr "შეცვლილია"
+
+msgid "Changes"
+msgstr "ცვლილებები"
+
+msgid "Errors"
+msgstr "შედომები"
+
+msgid "Validation"
+msgstr "შემოწმება"
+
+msgid "Additional"
+msgstr "დამატებით"
+
+msgid "Exception"
+msgstr "გამონაკლისი"

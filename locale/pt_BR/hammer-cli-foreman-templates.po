@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_templates package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Flamarion Jorge <jorge.flamarion@gmail.com>, 2020
+# Bryan Kearney <bryan.kearney@gmail.com>, 2020
+# Amit Upadhye <aupadhye@redhat.com>, 2022
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer-cli-foreman-templates 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-26 16:45+0530\n"
+"PO-Revision-Date: 2020-08-11 10:12+0000\n"
+"Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2022\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/foreman/"
+"teams/114/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+
+msgid "Export templates to a git repo or a directory on the server"
+msgstr "Modelos de exportação para um repo git ou um diretório no servidor"
+
+msgid "Export finished."
+msgstr "Exportação concluída."
+
+msgid "Could not export"
+msgstr "Não poderia exportar"
+
+msgid "Be verbose"
+msgstr "Seja verboso"
+
+msgid "Id"
+msgstr "Id"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Exported"
+msgstr "Exportado"
+
+msgid "Import templates from a git repo or a directory on the server"
+msgstr "Importar modelos de um repo ou de um diretório no servidor"
+
+msgid "Import finished."
+msgstr "Importação terminada."
+
+msgid "Could not import"
+msgstr "Não poderia importar"
+
+msgid "Imported"
+msgstr "Importado"
+
+msgid "Changed"
+msgstr "Alterado(a)"
+
+msgid "Changes"
+msgstr "Alterações"
+
+msgid "Errors"
+msgstr "Erros"
+
+msgid "Validation"
+msgstr "Validação"
+
+msgid "Additional"
+msgstr "Adicional"
+
+msgid "Exception"
+msgstr "Exceção"

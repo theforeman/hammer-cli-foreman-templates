@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_templates package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Ettore Atalan <atalanttore@googlemail.com>, 2020
+# Bryan Kearney <bryan.kearney@gmail.com>, 2020
+# mbacovsky <martin.bacovsky@gmail.com>, 2020
+# 47388d0d0847859fcc07f8955b27d2a7_d1cb104 <93875580def0fcc1a566b016c3948752_122921>, 2020
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer-cli-foreman-templates 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-26 16:45+0530\n"
+"PO-Revision-Date: 2020-08-11 10:12+0000\n"
+"Last-Translator: 47388d0d0847859fcc07f8955b27d2a7_d1cb104 "
+"<93875580def0fcc1a566b016c3948752_122921>, 2020\n"
+"Language-Team: German (https://app.transifex.com/foreman/teams/114/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Export templates to a git repo or a directory on the server"
+msgstr ""
+"Exportieren der Templates in ein git Repository oder in ein Verzeichnis auf "
+"dem Server."
+
+msgid "Export finished."
+msgstr "Export beendet."
+
+msgid "Could not export"
+msgstr "Export kann nicht durchgeführt werden"
+
+msgid "Be verbose"
+msgstr "Ausführliche Ausgabe"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Exported"
+msgstr "Exportiert"
+
+msgid "Import templates from a git repo or a directory on the server"
+msgstr ""
+"Importieren von Templates aus einem git Repository oder einem Verzeichnis "
+"auf dem Server."
+
+msgid "Import finished."
+msgstr "Import beendet."
+
+msgid "Could not import"
+msgstr "Import kann nicht durchgeführt werden."
+
+msgid "Imported"
+msgstr "Importiert"
+
+msgid "Changed"
+msgstr "Geändert "
+
+msgid "Changes"
+msgstr "Änderungen"
+
+msgid "Errors"
+msgstr "Fehler"
+
+msgid "Validation"
+msgstr "Validierung"
+
+msgid "Additional"
+msgstr "Weitere Schritte"
+
+msgid "Exception"
+msgstr "Ausnahme"
