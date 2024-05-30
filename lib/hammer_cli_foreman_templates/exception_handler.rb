@@ -2,7 +2,7 @@ module HammerCLIForemanTemplates
   class ExceptionHandler < HammerCLIForeman::ExceptionHandler
     def mappings
       [
-        [RestClient::InternalServerError, :handle_internal_error]
+        [RestClient::InternalServerError, :handle_internal_error],
       ] + super
     end
 

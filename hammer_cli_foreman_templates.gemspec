@@ -1,8 +1,7 @@
-$:.unshift File.expand_path("../lib", __FILE__)
+$:.unshift File.expand_path('lib', __dir__)
 require "hammer_cli_foreman_templates/version"
 
 Gem::Specification.new do |s|
-
   s.name = "hammer_cli_foreman_templates"
   s.version = HammerCLIForemanTemplates.version.dup
   s.platform = Gem::Platform::RUBY
@@ -11,10 +10,10 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/theforeman/hammer-cli-foreman-templates"
   s.license = "GPL-3.0"
 
-  s.summary = %q{Foreman Hammer commands for exporting and importing templates}
-  s.description = <<EOF
-CLI plugin with import and export commands for Hammer_CLI_Foreman
-EOF
+  s.summary = 'Foreman Hammer commands for exporting and importing templates'
+  s.description = <<~EOF
+    CLI plugin with import and export commands for Hammer_CLI_Foreman
+  EOF
 
   s.files = Dir['{lib,config}/**/*', 'LICENSE', 'README.md'] + Dir["locale/**/*.{po,pot,mo}"]
   s.extra_rdoc_files = ['LICENSE', 'README.md']

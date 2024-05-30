@@ -9,7 +9,7 @@ module HammerCLIForemanTemplates
     failure_message _('Could not export')
 
     option '--verbose', 'BE_VERBOSE', _('Be verbose'),
-           format: HammerCLI::Options::Normalizers::Bool.new
+      format: HammerCLI::Options::Normalizers::Bool.new
 
     output do
       field :id, _('Id'), Fields::Id

@@ -18,4 +18,5 @@ end
 require "hammer_cli_foreman_templates/version"
 require "hammer_cli_foreman_templates/i18n"
 require "hammer_cli/i18n/find_task"
-HammerCLI::I18n::FindTask.define(HammerCLIForemanTemplates::I18n::LocaleDomain.new, HammerCLIForemanTemplates.version.to_s)
+HammerCLI::I18n::FindTask.define(HammerCLIForemanTemplates::I18n::LocaleDomain.new,
+  HammerCLIForemanTemplates.version.to_s)
