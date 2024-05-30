@@ -1,0 +1,27 @@
+inherit_gem:
+  theforeman-rubocop:
+    - default.yml
+
+Metrics:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/HashSyntax:
+  Enabled: false
+
+Naming/MethodParameterName:
+  Enabled: false
+
+Naming/HeredocDelimiterNaming:
+  Enabled: false
+
+Style/StringConcatenation:
+  Enabled: false
+
+Style/SpecialGlobalVars:
+  Enabled: false
