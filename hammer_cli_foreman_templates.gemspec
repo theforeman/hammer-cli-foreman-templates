@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency 'hammer_cli_foreman', '>= 0.11.0'
+  s.add_dependency 'hammer_cli_foreman', '>= 3.0.0', '< 4.0.0'
 
   s.required_ruby_version = '>= 2.7', '< 4'
 end
