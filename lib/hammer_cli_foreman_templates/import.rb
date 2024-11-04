@@ -30,7 +30,7 @@ module HammerCLIForemanTemplates
       templates = send_request['templates']
       if option_verbose
         templates.each do |template|
-          if template['validation_errors'].empty?
+          if template['validation_errors'].to_a.empty?
             template['validation_errors'] = nil
           else
             validation_errors = []
