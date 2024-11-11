@@ -12,7 +12,7 @@ module HammerCLIForemanTemplates
       end
 
       def domain_name
-        'hammer-cli-foreman-templates'
+        'hammer_cli_foreman_templates'
       end
     end
   end

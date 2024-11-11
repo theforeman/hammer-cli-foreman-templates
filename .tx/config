@@ -1,9 +1,9 @@
 [main]
 host = https://app.transifex.com
 
-[o:foreman:p:foreman:r:hammer-cli-foreman-templates]
-file_filter = locale/<lang>/hammer-cli-foreman-templates.edit.po
-source_file = locale/hammer-cli-foreman-templates.pot
+[o:foreman:p:foreman:r:hammer_cli_foreman_templates]
+file_filter = locale/<lang>/hammer_cli_foreman_templates.edit.po
+source_file = locale/hammer_cli_foreman_templates.pot
 source_lang = en
 type = PO
-resource_name = hammer-cli-foreman-templates
+resource_name = hammer_cli_foreman_templates
